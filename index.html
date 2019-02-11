@@ -24,30 +24,57 @@
 
 <body>
     <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-        
-    <div class="container">
-        <a class="navbar-brand" href="#">
-        <img src="images/Logo-Ji-v2.2.svg" width="50" height="50" class="d-inline-block align-top" alt="logo">
-        </a>
-        
-        <ul class="navbar-nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">My Portfolio <span class="sr-only">(current)</span></a>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#aboutme">About Me</a>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                      </li>
-              </ul>     
- 
-    </div>
 
-    </nav>
+    <!-- <div class="bg"></div> -->
+        <!-- <div class="jumbotron jumbotron-fluid"> -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-   <section>
+                    <a class="navbar-brand" href="#">
+                      <img src="images/Logo-Ji-v2.2.svg" width="50" height="50" class="d-inline-block align-top" alt="logo">
+                    </a>
+                   
+                    <div class="collapse navbar-collapse" id="navbarToggler">
+                        <ul class="navbar-nav ml-auto">
+                            <li>
+                                <a href="#portfolio"><button type="button" class="btn btn-primary" id="nav-item">My Portfolio</button></a>
+                            </li>
+                            <li>
+                              <a href="#aboutme"><button type="button" class="btn btn-primary" id="nav-item">About Me</button></a>
+                            </li>
+                            <li>
+                            <a href="#contact"><button type="button" class="btn btn-primary" id="nav-item">Contact</button></a>
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+            </nav>
+
+    <div class="bg"></div>
+        <div class="jumbotron jumbotron-fluid"> 
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6 col-sm-12 picture">
+                      <img src="images/Ji-2.jpeg" alt="Ji Kim" class="img-thumbnail rounded-circle ml-5" width="400px" height="400px">
+                </div>
+                  <div class="col-md-6 col-sm-12">
+                      <h1 class="name">
+                          Hello,<br>
+                          I am Ji Kim
+                      </h1><br>
+                      <h6 id="description">A designer focused on UI/UX design and prototyping.</h6>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+
+      
+
+   <!-- <section>
     <div class="Container align-center" style="background-color:#FFF0F6"><br><br>
         <div class="row">
             <div class="col-md-2"></div>
@@ -66,7 +93,7 @@
             <div class="col-md-2"></div>
         </div><br><br>
     </div>
-    </section>
+    </section> -->
 
 
 <!-- My Portfolio -->
@@ -79,38 +106,38 @@
 <br><br>
 
     <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-5">
+            <div class="col-md-2 col-sm-1"></div>
+            <div class="col-md-4 col-sm-5">
               <div class="card" id="card">
                 <img src="images/PLAN-logo.png" width="460" height="240" class="card-img-top" alt="planapp">
                 <div class="card-body">
-                  <h5 class="card-title">Travel App - PLAN</h5>
+                  <h5 class="card-title">PLAN</h5>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                   <br>
                   <a href="https://invis.io/Q7O4Y3R5DFB" class="btn btn-primary"id="mybtn">View My Project</a> <br> <br>
                 </div>
               </div>
             </div>
-            <div class="col-sm-5">
+            <div class="col-md-4 col-sm-5">
               <div class="card" id="card">
                 <img src="images/DoEd.png" width="460" height="240" class="card-img-top" alt="doed">
                 <div class="card-body">
-                  <h5 class="card-title">Government Agency-DoEd</h5>
+                  <h5 class="card-title">DoEd</h5>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                   <br>
                   <a href="https://invis.io/F8QFGTMZJGK" class="btn btn-primary content-align-center" id="mybtn">View My Project</a> <br> <br>
                 </div>
               </div>
             </div>
-            <div class="col-sm-1"></div>
+            <div class="col-md-2 col-sm-1"></div>
           </div>
 
     <br>
 
 
           <div class="row">
-                <div class="col-sm-1"></div>
-                <div class="col-sm-5">
+                <div class="col-md-2 col-sm-1"></div>
+                <div class="col-md-4 col-sm-5">
                   <div class="card" id="card">
                     <img src="images/Reading to Kids.png" width="460" height="240" class="card-img-top" alt="readingtokids">
                     <div class="card-body">
@@ -121,7 +148,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-5">
+                <div class="col-md-4 col-sm-5">
                   <div class="card" id="card">
                     <img src="images/STC.png" width="460" height="240" class="card-img-top" alt="Savethechildren">
                     <div class="card-body">
@@ -132,7 +159,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-1"></div>
+                <div class="col-md-2 col-sm-1"></div>
               </div>
 
 
@@ -148,26 +175,26 @@
     <h1 class="title" id="aboutme">About Me</h1>
 <br><br>
         <div class="row">
-             <div class="col-md-2"></div>
-            <div class="col-md-2">
+             <div class="col-md-2 col-sm-1"></div>
+            <div class="col-md-2 col-sm-3">
                 <p class="skills">UX/UI Skills</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6">
                 <p class="explain">USABILITY STUDIES, USER-CENTERED DESIGN, RESEARCH DESIGN, DESIGN THINKING,INTERVIEWS/SURVEYS, WIREFRAMING, PROTOTYPING, PERSONAS</p>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-2 col-sm-2"></div>
             </div>
 <br>
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-1"></div>
+            <div class="col-md-2 col-sm-3">
                 <p class="skills">Tools</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6 ">
                 <p class="explain">ADOBE XD, INVISION, PHOTOSHOP, ILLUSTRATOR, EXCEL, 
                     JAVASCRIPT, HTML & CSS, JQUERY, BOOTSTRAP</p>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-2 col-sm-2"></div>
             </div><br><br><br>
         </div>
 
